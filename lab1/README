@@ -1,0 +1,4 @@
+1. Powstały pliki z rozszerzeniem .o
+2. Do kompilacji glowny.c potrzebne jest istnienie pliku biblioteka.c poniewaz w nim znajduje sie funkcja hej()
+3. Opcja -Wall spowodowała wyświetlenie większej ilości błędów. Po dołączeniu definicje.h komunikaty się nie zmieniły
+4. Domyslna nazwa pliku to a.out. Zrodła nie są konieczne. 
