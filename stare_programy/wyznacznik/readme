@@ -1,0 +1,2 @@
+To zadanie zostało podzielone na pliki. Żeby działało należy kompilować:
+  'gcc main.c wyznacznik.c wczytaj_dane.c'
