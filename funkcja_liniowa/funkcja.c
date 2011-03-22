@@ -1,4 +1,4 @@
-nclude <stdio.h>
+#include <stdio.h>
 
 void liniowa(double a, double b)
 {
