@@ -1,26 +1,23 @@
-#include <stdio.h>
+#include<stdio.h>
 
-void liniowa(double a, double b)
+float a, b, x;
+void dane(void)
 {
-
-    double zerowe;
-
-    if (a == 0) {
-		
-		if (b == 0)
-		printf
-		("\nKażdy liczba rzeczywista jest miejscem zerowym funkcji\n");
-		if (b != 0)
-		printf
-		("\nWykres nie ma miejsca zerowego, dla każdego x wartość wynosi %.4lf\n", b);
-		
-		    } else {
-				
-				zerowe = (b / a) * (-1);
-				printf("\nMiejsce zerowe wynosi %.4lf\n", zerowe);
-				
-				    }
-
-
-
+printf("Rownanie: a*x=b\n podaj parametry rownania\n");
+    printf("a= \n");
+    scanf("%f", &a);
+    printf("b= \n");
+    scanf("%f", &b);
 }
+
+void rownanie(void)
+{
+    x = b / a;
+}
+
+void wynik(void)
+{
+    printf("Wynik rownania %f * x = %f to x = %f \n", a, b, x);
+}
+
+

@@ -1,15 +1,10 @@
-#include <stdio.h>
-#include "funkcja.h"
+#include<stdio.h>
+#include "helpers.h"
 
 int main()
 {
-
-    double a, b;
-    printf("Podaj Liczbe a : ");
-    scanf("%lf", &a);
-    printf("\nPodaj Liczbe b : ");
-    scanf("%lf", &b);
-
-    liniowa(a, b);
+    dane();
+    rownanie();
+    wynik();
     return 0;
 }
