@@ -1,0 +1,1 @@
+ala ma kota kot ma ale
